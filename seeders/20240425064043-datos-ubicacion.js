@@ -3,24 +3,24 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('Ubicaciones', [
+    await queryInterface.bulkInsert('ubicacions', [
       {
         idUbicacion: "20",
-        descripcion: "Mexico",
+        descripcionUbicacion: "Mexico",
         imagenUbicacion: "mexico.jpg",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         idUbicacion: "21",
-        descripcion: "USA",
+        descripcionUbicacion: "USA",
         imagenUbicacion: "usa.jpg",
         createdAt: new Date(),
         updatedAt: new Date()
       },
       {
         idUbicacion: "22",
-        descripcion: "Canada",
+        descripcionUbicacion: "Canada",
         imagenUbicacion: "canada.jpg",
         createdAt: new Date(),
         updatedAt: new Date()

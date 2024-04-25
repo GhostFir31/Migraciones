@@ -10,8 +10,8 @@ module.exports = {
         numInventario: "0",
         tipoActivo: "computadora",
         descripcionActivo: "Computadora de escritorio",
-        ubicacionId: 20,
-        responsableId: 1,
+        ubicacion: "20",
+        responsable: "1",
         imagenActivo: "computadora.jpg",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -22,8 +22,8 @@ module.exports = {
         numInventario: "1",
         tipoActivo: "mobiliario",
         descripcionActivo: "Mesa",
-        ubicacionId: 20,
-        responsableId: 2,
+        ubicacion: "20",
+        responsable: "2",
         imagenActivo: "mesa.jpg",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -34,8 +34,8 @@ module.exports = {
         numInventario: "3",
         tipoActivo: "equipo de electronica",
         descripcionActivo: "celular",
-        ubicacionId: 21,
-        responsableId: 3,
+        ubicacion: "21",
+        responsable: "3",
         imagenActivo: "celular.jpg",
         createdAt: new Date(),
         updatedAt: new Date()

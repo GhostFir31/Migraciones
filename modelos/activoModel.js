@@ -41,7 +41,6 @@ const agregar = (nuevoActivo) => {
 };
 
 module.exports = {
-    activos,
     obtenerTodos,
     agregar
 };

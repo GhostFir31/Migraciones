@@ -3,11 +3,11 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('Responsables', [
+    await queryInterface.bulkInsert('responsables', [
       {
         idResponsable: "00001",
         numEmpleado: "1",
-        nombre: "Juan",
+        nombreEmpleado: "Juan",
         imagenResponsable: "juan.jpg",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -15,7 +15,7 @@ module.exports = {
       {
         idResponsable: "00002",
         numEmpleado: "2",
-        nombre: "Luis",
+        nombreEmpleado: "Luis",
         imagenResponsable: "luis.jpg",
         createdAt: new Date(),
         updatedAt: new Date()
@@ -23,7 +23,7 @@ module.exports = {
       {
         idResponsable: "00003",
         numEmpleado: "3",
-        nombre: "Oscar",
+        nombreEmpleado: "Oscar",
         imagenResponsable: "oscar.jpg",
         createdAt: new Date(),
         updatedAt: new Date()
